@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>tincow</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- my own css  -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- fontawesome cdn -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="fonts/fontawesome-free-6.2.1-web" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,900&family=Ubuntu&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">tincow </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="heading">Get the Fresh Meal for your Cows.</h1>
+          <button type="button" class="btn btn-dark btn-lg  download-button">
+            <i class="fa-brands fa-apple"></i> Download
+          </button>
+          <button type="button" class="btn btn-outline-light btn-lg  download-button">
+            <i class="fa-brands fa-google-play"></i> Download
+          </button>
+        </div>
+        <div class="col-lg-6">
+          <img class="cowseating" src="images/iphone6.png" alt="Cows eating" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4 benefits">
+        <i class="fa-solid fa-circle-check fa-4x signs"></i>
+        <h3 class="healthy">Very very Healthy.</h3>
+        <p class="features-para">You will see Health benefits in weeks.</p>
+      </div>
+      <div class="col-lg-4 benefits">
+        <i class="fa-solid fa-bullseye fa-4x signs"></i>
+        <h3 class="healthy">Very Low costs</h3>
+        <p class="features-para">Food is Healthy not costly.</p>
+      </div>
+      <div class="col-lg-4 benefits">
+        <i class="fa-solid fa-heart fa-4x signs"></i>
+        <h3 class="healthy">Guaranteed to work.</h3>
+        <p class="features-para">Your Cow will fall in love with the Food.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>
+            I no longer have to deal with problems related to diet. I've found
+            the best food for my pet.
+          </h2>
+          <img class="cowpicture" src="images/cow_picture.jpg" alt="Cow_profile" />
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">
+            My dog used to be so lonely, but with TinDog's help, they've found
+            the love of their life. I think.
+          </h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="man-profile" />
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-img" src="images/techcrunch.png" alt="tc-logo" />
+    <img class="press-img" src="images/tnw.png" alt="tnw-logo" />
+    <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo" />
+    <img class="press-img" src="images/mashable.png" alt="mashable-logo" />
+  </section>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <h2>A Plan for Every Cow's Needs</h2>
+    <p>Simple and affordable price plans for your and your Cow.</p>
+    <div class="row">
+      <div class=" column col-lg-4 col-md-6 ">
+        <div class="card">
+          <div class="card-header">
+            <h3>Starter</h3>
+          </div>
+          <div class="card-body">
+            <h2>20$ / mo</h2>
+            <p>5 packets</p>
+            <p>20 Days</p>
+            <p>Limited Results</p>
+            <div class="d-grid gap-2">
+              <button type="button" class="button btn  btn-block btn-outline-dark btn-lg btn-1 ">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Best</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>20 Packets</p>
+            <p>2 Months</p>
+            <p>pretty Good Results</p>
+            <div class="d-grid gap-2">
+              <button type="button" class=" button btn  btn-block btn-primary btn-lg  btn-2">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" column col-lg-4 ">
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Game changer</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p>50 packets</p>
+            <p>5 Months</p>
+            <p>Amazing Results</p>
+            <p>Free Diet Plan</p>
+            <div class="d-grid gap-2">
+              <button type="button" class=" button btn  btn-block btn-primary btn-lg  ">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <h3 class="call">Find the Benificial Food for your Cow's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg  download-button">
+      <i class="fa-brands fa-apple"></i> Download
+    </button>
+    <button type="button" class="btn btn-outline-light btn-lg  download-button">
+      <i class="fa-brands fa-google-play"></i> Download
+    </button>
+    
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class=" icons fa-brands fa-twitter"></i>
+    <i class=" icons fa-brands fa-facebook"></i>
+    <i class=" icons fa-brands fa-instagram"></i>
+    <i class=" icons fa-solid fa-envelope"></i>
+    <p>© Copyright 2022 Tincow</p>
+  </footer>
+</body>
+
+</html>
